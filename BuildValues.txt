@@ -1,0 +1,24 @@
+#Build the VTKlibrary using these default values
+
+set(BUILD_SHARED_LIBS ON CACHE BOOL "using shared libs" FORCE)
+
+set(CMAKE_CONFIGURATION_TYPES "Debug;Release" CACHE STRING "config" FORCE)
+
+set(VTK_USE_PARALLEL ON CACHE BOOL "use parallel" FORCE)
+
+set(VTK_USE_CHARTS OFF CACHE BOOL "use charts" FORCE)
+
+set(VTK_USE_GEOVIS OFF CACHE BOOL "use geovis" FORCE)
+
+set(VTK_USE_GUISUPPORT ON CACHE BOOL "use guisupport" FORCE)
+
+set(VTK_USE_QVTK_QTOPENGL ON CACHE BOOL "use qvtk " FORCE)
+
+set(VTK_USE_QT ON CACHE BOOL "use qt" FORCE)
+
+
+
+
+
+
+
