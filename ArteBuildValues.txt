@@ -1,0 +1,21 @@
+#Build the VTKlibrary using these default values
+
+set(BUILD_SHARED_LIBS ON CACHE BOOL "using shared libs" FORCE)
+
+set(CMAKE_DEBUG_POSTFIX "d" CACHE STRING "set lib postfix" FORCE)
+
+set(BUILD_TESTING OFF CACHE BOOL "Build the testing tree." FORCE)
+
+set(CMAKE_CONFIGURATION_TYPES "Debug;Release" CACHE STRING "config" FORCE)
+
+set(VTK_USE_CHARTS OFF CACHE BOOL "use charts" FORCE)
+
+set(VTK_USE_GEOVIS OFF CACHE BOOL "use geovis" FORCE)
+
+set(CMAKE_CXX_FLAGS_RELEASE "/MD /Zi /O2 /Ob1 /D NDEBUG" CACHE STRING "Compiler flags for release build" FORCE)
+
+
+
+
+
+
